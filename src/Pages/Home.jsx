@@ -70,6 +70,7 @@ const Home = () => {
                   whileInView={"visible"}
                   transition={{ delay: 0.25 + index * 0.05 }}
                   exit={{ x: "-100%", opacity: 0 }}
+                  className="text-justify"
                 >
                   {text}
                 </motion.p>

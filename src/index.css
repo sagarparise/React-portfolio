@@ -85,6 +85,9 @@ p {
   max-width: 40em;
 }
 
+.text-justify{
+  text-align: justify !important;
+}
 
 h1,
 h2,

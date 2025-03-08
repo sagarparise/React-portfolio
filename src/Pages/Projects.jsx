@@ -36,7 +36,7 @@ const Projects = () => {
                     <a href={project.repoUrl} target="_blank">
                       <h5 className="">{project.title}</h5>
                     </a>
-                    <p style={{fontSize:".9rem"}}>{project.description}</p>
+                    <p style={{fontSize:".9rem"}} className="text-justify">{project.description}</p>
                     <div className="d-flex gap-2">
                       <a href={project.repoUrl} className="btn" target="_blank">
                         View Code

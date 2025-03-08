@@ -22,7 +22,7 @@ const About_me = () => {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: 100, opacity: 0 }}
           >
-            <p className="text-start" >
+            <p className="text-start text-justify" >
               Hi, I'm <span className="about-name fw-bold">Sagar Parise</span>, a passionate <span className="about-name fw-bold">MERN Stack Developer</span> who loves
               turning ideas into reality through code. With a strong foundation
               in web development, I specialize in building modern, responsive,
