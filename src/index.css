@@ -842,9 +842,21 @@ nav ul .nav-item a.active {
   border: 3px solid transparent;
   background-color: var(--blue-light);
   user-select: none;
+  /* apply the transition */
+  
+
 }
+
+
 .skill:hover {
   border: 3px solid var(--primary-500);
+  background: #011627;
+  box-shadow: 
+  0 0 5px #00feba,
+  0 0 7px #5b5ea6,
+  0 0 12px #00feba,
+  0 0 20px #5b5ea6;
+  
 }
 .skill span {
   position: absolute;

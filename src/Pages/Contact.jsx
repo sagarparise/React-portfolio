@@ -17,6 +17,9 @@ const Contact = () => {
       opacity: 1,
     },
   };
+ 
+  
+
   return (
     <div className="section-trans overflow-x-hidden" id="contact">
       <section className="container">
