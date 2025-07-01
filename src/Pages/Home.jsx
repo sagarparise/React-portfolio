@@ -128,7 +128,8 @@ const Home = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section>  
+    
     </div>
   );
 };

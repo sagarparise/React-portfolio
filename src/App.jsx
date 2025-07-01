@@ -7,6 +7,7 @@ import Navbar from "./Component/Navbar";
 import AnimatedBG from "./Component/AnimatedBG";
 import Footer from "./Component/Footer";
 import Experience from "./Pages/Experience";
+import SplashCursor from "./Pages/SplashCursor";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <SplashCursor /> 
     </>
   );
 }
